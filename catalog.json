@@ -1,16 +1,20 @@
 ﻿[
     {
-        "Sounds":  {
-                       "Name":  "BUSHIDO ZHO - vodila.mp3",
-                       "Url":  "https://raw.githubusercontent.com/Animals/BUSHIDO%20ZHO%20-%20vodila.mp3"
-                   },
+        "Sounds":  [
+                       {
+                           "Name":  "BUSHIDO ZHO - vodila.mp3",
+                           "Url":  "https://raw.githubusercontent.com/Animals/BUSHIDO%20ZHO%20-%20vodila.mp3"
+                       }
+                   ],
         "Name":  "Animals"
     },
     {
-        "Sounds":  {
-                       "Name":  "Initial D Special Stage - Remember me.mp3",
-                       "Url":  "https://raw.githubusercontent.com/Memes/Initial%20D%20Special%20Stage%20-%20Remember%20me.mp3"
-                   },
+        "Sounds":  [
+                       {
+                           "Name":  "Initial D Special Stage - Remember me.mp3",
+                           "Url":  "https://raw.githubusercontent.com/Memes/Initial%20D%20Special%20Stage%20-%20Remember%20me.mp3"
+                       }
+                   ],
         "Name":  "Memes"
     }
 ]
