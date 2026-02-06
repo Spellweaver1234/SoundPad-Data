@@ -1,5 +1,5 @@
 # Настройки
-$baseUrl = "https://raw.githubusercontent.com/Spellweaver1234/SoundPad-Data"
+$baseUrl = "https://raw.githubusercontent.com/Spellweaver1234/SoundPad-Data/heads/main/Sounds"
 $soundsDir = "Sounds"
 $outputFile = "catalog.json"
 
