@@ -12,16 +12,19 @@ $catalog = Get-ChildItem -Path $soundsDir -Directory | ForEach-Object {
     $files = Get-ChildItem -Path $_.FullName -File | Where-Object { $_.Extension -match "mp3|wav" }
     
     if ($files.Count -gt 0) {
-        # Используем @(...) чтобы гарантировать массив, даже если файл один
         $soundsArray = @( $files | ForEach-Object {
+            # Кодируем имя файла правильно для URL (включая пробелы и спецсимволы)
+            $encodedFileName = [Uri]::EscapeDataString($_.Name)
+            $fullUrl = "$baseUrl/$categoryName/$encodedFileName"
+            
             @{
                 Name = $_.Name
-                Url = "$baseUrl/$categoryName/$($_.Name)" -replace ' ', '%20'
+                Url  = $fullUrl
             }
         })
 
         @{
-            Name = $categoryName
+            Name   = $categoryName
             Sounds = $soundsArray
         }
     }
