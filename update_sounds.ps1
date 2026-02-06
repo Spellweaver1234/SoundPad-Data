@@ -13,9 +13,11 @@ $catalog = Get-ChildItem -Path $soundsDir -Directory | ForEach-Object {
     
     if ($files.Count -gt 0) {
         $soundsArray = @( $files | ForEach-Object {
-            # Кодируем имя файла правильно для URL (включая пробелы и спецсимволы)
-            $encodedFileName = [Uri]::EscapeDataString($_.Name)
-            $fullUrl = "$baseUrl/$categoryName/$encodedFileName"
+            # Просто заменяем пробелы на %20, GitHub это съест лучше всего
+            $fileNameForUrl = $_.Name -replace ' ', '%20'
+            
+            # Собираем ссылку (убедись, что в $baseUrl в конце НЕТ слеша)
+            $fullUrl = "${baseUrl}/$categoryName/$fileNameForUrl"
             
             @{
                 Name = $_.Name
@@ -29,6 +31,7 @@ $catalog = Get-ChildItem -Path $soundsDir -Directory | ForEach-Object {
         }
     }
 }
+
 
 $catalog | ConvertTo-Json -Depth 5 | Out-File -FilePath $outputFile -Encoding utf8
 Write-Host "--- Готово! catalog.json обновлен ---" -ForegroundColor Green
