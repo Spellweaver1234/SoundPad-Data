@@ -33,5 +33,14 @@
                        }
                    ],
         "Name":  "Memes — копия"
+    },
+    {
+        "Sounds":  [
+                       {
+                           "Name":  "Initial D Special Stage - Remember me.mp3",
+                           "Url":  "https://raw.githubusercontent.com/Spellweaver1234/SoundPad-Data/heads/main/Sounds/Memes — копия — копия/Initial%20D%20Special%20Stage%20-%20Remember%20me.mp3"
+                       }
+                   ],
+        "Name":  "Memes — копия — копия"
     }
 ]
