@@ -2,22 +2,13 @@
     {
         "Sounds":  [
                        {
-                           "Name":  "4K - Аккуратно ([МАТОВЫЙ 2]).mp3",
-                           "Url":  "https://raw.githubusercontent.com/Spellweaver1234/SoundPad-Data/heads/main/Sounds/4K/4K%20-%20Аккуратно%20([МАТОВЫЙ%202]).mp3"
+                           "Name":  "Initial D Special Stage - Remember me — копия (2).mp3",
+                           "Url":  "https://raw.githubusercontent.com/Spellweaver1234/SoundPad-Data/heads/main/Sounds/Animals/Initial%20D%20Special%20Stage%20-%20Remember%20me%20—%20копия%20(2).mp3"
                        },
                        {
-                           "Name":  "4K - Марасил ([МАТОВЫЙ 2]).mp3",
-                           "Url":  "https://raw.githubusercontent.com/Spellweaver1234/SoundPad-Data/heads/main/Sounds/4K/4K%20-%20Марасил%20([МАТОВЫЙ%202]).mp3"
+                           "Name":  "Initial D Special Stage - Remember me — копия.mp3",
+                           "Url":  "https://raw.githubusercontent.com/Spellweaver1234/SoundPad-Data/heads/main/Sounds/Animals/Initial%20D%20Special%20Stage%20-%20Remember%20me%20—%20копия.mp3"
                        },
-                       {
-                           "Name":  "4K, Диман Брюханов - Тихо из дворов ([МАТОВЫЙ 2]).mp3",
-                           "Url":  "https://raw.githubusercontent.com/Spellweaver1234/SoundPad-Data/heads/main/Sounds/4K/4K,%20Диман%20Брюханов%20-%20Тихо%20из%20дворов%20([МАТОВЫЙ%202]).mp3"
-                       }
-                   ],
-        "Name":  "4K"
-    },
-    {
-        "Sounds":  [
                        {
                            "Name":  "Initial D Special Stage - Remember me.mp3",
                            "Url":  "https://raw.githubusercontent.com/Spellweaver1234/SoundPad-Data/heads/main/Sounds/Animals/Initial%20D%20Special%20Stage%20-%20Remember%20me.mp3"
@@ -27,14 +18,6 @@
     },
     {
         "Sounds":  [
-                       {
-                           "Name":  "Initial D Special Stage - Remember me — копия (2).mp3",
-                           "Url":  "https://raw.githubusercontent.com/Spellweaver1234/SoundPad-Data/heads/main/Sounds/Memes/Initial%20D%20Special%20Stage%20-%20Remember%20me%20—%20копия%20(2).mp3"
-                       },
-                       {
-                           "Name":  "Initial D Special Stage - Remember me — копия.mp3",
-                           "Url":  "https://raw.githubusercontent.com/Spellweaver1234/SoundPad-Data/heads/main/Sounds/Memes/Initial%20D%20Special%20Stage%20-%20Remember%20me%20—%20копия.mp3"
-                       },
                        {
                            "Name":  "Initial D Special Stage - Remember me.mp3",
                            "Url":  "https://raw.githubusercontent.com/Spellweaver1234/SoundPad-Data/heads/main/Sounds/Memes/Initial%20D%20Special%20Stage%20-%20Remember%20me.mp3"
