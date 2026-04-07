@@ -2,6 +2,43 @@
     {
         "Sounds":  [
                        {
+                           "Name":  "dog 1.mp3",
+                           "Url":  "https://raw.githubusercontent.com/Spellweaver1234/SoundPad-Data/heads/main/Sounds/Dog barking/dog%201.mp3"
+                       },
+                       {
+                           "Name":  "dog 2.mp3",
+                           "Url":  "https://raw.githubusercontent.com/Spellweaver1234/SoundPad-Data/heads/main/Sounds/Dog barking/dog%202.mp3"
+                       },
+                       {
+                           "Name":  "dog 3.mp3",
+                           "Url":  "https://raw.githubusercontent.com/Spellweaver1234/SoundPad-Data/heads/main/Sounds/Dog barking/dog%203.mp3"
+                       },
+                       {
+                           "Name":  "dog 4.mp3",
+                           "Url":  "https://raw.githubusercontent.com/Spellweaver1234/SoundPad-Data/heads/main/Sounds/Dog barking/dog%204.mp3"
+                       },
+                       {
+                           "Name":  "dog 5.mp3",
+                           "Url":  "https://raw.githubusercontent.com/Spellweaver1234/SoundPad-Data/heads/main/Sounds/Dog barking/dog%205.mp3"
+                       },
+                       {
+                           "Name":  "dog 6.mp3",
+                           "Url":  "https://raw.githubusercontent.com/Spellweaver1234/SoundPad-Data/heads/main/Sounds/Dog barking/dog%206.mp3"
+                       },
+                       {
+                           "Name":  "dog 7.mp3",
+                           "Url":  "https://raw.githubusercontent.com/Spellweaver1234/SoundPad-Data/heads/main/Sounds/Dog barking/dog%207.mp3"
+                       },
+                       {
+                           "Name":  "dog 8.mp3",
+                           "Url":  "https://raw.githubusercontent.com/Spellweaver1234/SoundPad-Data/heads/main/Sounds/Dog barking/dog%208.mp3"
+                       }
+                   ],
+        "Name":  "Dog barking"
+    },
+    {
+        "Sounds":  [
+                       {
                            "Name":  "man 1.mp3",
                            "Url":  "https://raw.githubusercontent.com/Spellweaver1234/SoundPad-Data/heads/main/Sounds/Men\u0027s screams/man%201.mp3"
                        },
